@@ -1,0 +1,180 @@
+//Function to write data to the spreadsheet
+function setValue(value,lastRow,col){
+  sheet.getRange(lastRow,col).setValue(value);
+  col++;
+  return col;
+}
+
+function setData(array,lastRow,col){
+  for(n in array){
+    sheet.getRange(lastRow,col).setValue(array[n]);
+    col++;
+  }
+  return col;
+}
+
+//setValue(arrayToStore , inRowToStore , columnStart)
+function set(e,lastRow){
+  var col = 1;
+  col = setValue(e.parameter.basicInfo1,lastRow,1);
+  col = setValue(e.parameter.basicInfo2,lastRow,col);
+  col = setValue(e.parameter.basicInfo3,lastRow,col);
+  col = setValue(e.parameter.basicInfo4,lastRow,col);
+  col = setValue(e.parameter.basicInfo5,lastRow,col);
+  col = setValue(e.parameter.basicInfo6,lastRow,col);
+  col = setValue(e.parameter.basicInfo7,lastRow,col);
+  col = setValue(e.parameter.basicInfo8,lastRow,col);
+  col = setValue(e.parameter.basicInfo9,lastRow,col);
+  col = setValue(e.parameter.basicInfo10,lastRow,col);
+  col = setValue(e.parameter.basicInfo11,lastRow,col);
+  col = setValue(e.parameter.basicInfo12,lastRow,col);
+  col = setValue(e.parameter.basicInfo13,lastRow,col);
+  col = setValue(e.parameter.basicInfo14,lastRow,col);
+  col = setValue(e.parameter.basicInfo15,lastRow,col);
+  col = setValue(e.parameter.basicInfo16,lastRow,col);
+  col = setValue(e.parameter.basicInfo17,lastRow,col);
+  col = setValue(e.parameter.basicInfo18,lastRow,col);
+  col = setValue(e.parameter.basicInfo19,lastRow,col);
+  col = setValue(e.parameter.basicInfo20,lastRow,col);
+  
+  col = setValue(e.parameter.policy1,lastRow,col);
+  col = setValue(e.parameter.policy2,lastRow,col);
+  col = setValue(e.parameter.policy3,lastRow,col);
+  col = setValue(e.parameter.policy4,lastRow,col);
+  col = setValue(e.parameter.policy5,lastRow,col);
+  col = setValue(e.parameter.policy6,lastRow,col);
+  col = setValue(e.parameter.policy7,lastRow,col);
+  col = setValue(e.parameter.policy8,lastRow,col);
+  col = setValue(e.parameter.policy9,lastRow,col);
+  col = setValue(e.parameter.policy10,lastRow,col);
+  col = setValue(e.parameter.policy11,lastRow,col);
+  col = setValue(e.parameter.policy12,lastRow,col);
+  col = setValue(e.parameter.policy13,lastRow,col);
+  col = setValue(e.parameter.policy14,lastRow,col);
+  col = setValue(e.parameter.policy15,lastRow,col);
+  col = setValue(e.parameter.policy16,lastRow,col);
+  
+  
+  col = setValue(e.parameter.percentages1,lastRow,col);
+  col = setValue(e.parameter.percentages2,lastRow,col);
+  col = setValue(e.parameter.percentages3,lastRow,col);
+  col = setValue(e.parameter.percentages4,lastRow,col);
+  col = setValue(e.parameter.percentages5,lastRow,col);
+  col = setValue(e.parameter.percentages6,lastRow,col);
+  col = setValue(e.parameter.percentages7,lastRow,col);
+  col = setValue(e.parameter.percentages8,lastRow,col);
+  col = setValue(e.parameter.percentages9,lastRow,col);
+  col = setValue(e.parameter.percentages10,lastRow,col);
+  col = setValue(e.parameter.percentages11,lastRow,col);
+  
+  col = setValue(e.parameter.prosthetics1,lastRow,col);
+  col = setValue(e.parameter.prosthetics2,lastRow,col);
+  col = setValue(e.parameter.prosthetics3,lastRow,col);
+  col = setValue(e.parameter.prosthetics4,lastRow,col);
+  
+  col = setValue(e.parameter.waitingPeriod1,lastRow,col);
+  col = setValue(e.parameter.waitingPeriod2,lastRow,col);
+  
+  col = setValue(e.parameter.ssc1,lastRow,col);
+  col = setValue(e.parameter.ssc2,lastRow,col);
+  
+  col = setValue(e.parameter.exams1,lastRow,col);
+  col = setValue(e.parameter.exams2,lastRow,col);
+  col = setValue(e.parameter.exams3,lastRow,col);
+  col = setValue(e.parameter.exams4,lastRow,col);
+  
+  col = setValue(e.parameter.xrays1,lastRow,col);
+  col = setValue(e.parameter.xrays2,lastRow,col);
+  col = setValue(e.parameter.xrays3,lastRow,col);
+  col = setValue(e.parameter.xrays4,lastRow,col);
+  col = setValue(e.parameter.xrays5,lastRow,col);
+  
+  col = setValue(e.parameter.fluroide1,lastRow,col);
+  col = setValue(e.parameter.fluroide2,lastRow,col);
+  col = setValue(e.parameter.fluroide3,lastRow,col);
+  col = setValue(e.parameter.fluroide4,lastRow,col);
+  
+  col = setValue(e.parameter.sealantsD,lastRow,col);
+  
+  col = setValue(e.parameter.sealants1,lastRow,col);
+  col = setValue(e.parameter.sealants2,lastRow,col);
+  col = setValue(e.parameter.sealants3,lastRow,col);
+  col = setValue(e.parameter.sealants4,lastRow,col);
+  col = setValue(e.parameter.sealants5,lastRow,col);
+  
+  col = setValue(e.parameter.prophy1,lastRow,col);
+  col = setValue(e.parameter.prophy2,lastRow,col);
+  
+  col = setValue(e.parameter.rollage,lastRow,col);
+  
+  col = setValue(e.parameter.perio1,lastRow,col);
+  col = setValue(e.parameter.perio2,lastRow,col);
+  col = setValue(e.parameter.perio3,lastRow,col);
+  col = setValue(e.parameter.perio4,lastRow,col);
+  
+  col = setValue(e.parameter.perioMnt1,lastRow,col);
+  col = setValue(e.parameter.perioMnt2,lastRow,col);
+  col = setValue(e.parameter.perioMnt3,lastRow,col);
+  col = setValue(e.parameter.perioMnt4,lastRow,col);
+  col = setValue(e.parameter.perioMnt5,lastRow,col);
+  col = setValue(e.parameter.perioMnt6,lastRow,col);
+  col = setValue(e.parameter.perioMnt7,lastRow,col);
+  
+  col = setValue(e.parameter.sedations1,lastRow,col);
+  col = setValue(e.parameter.sedations2,lastRow,col);
+  col = setValue(e.parameter.sedations3,lastRow,col);
+  
+  col = setValue(e.parameter.extractions1,lastRow,col);
+  col = setValue(e.parameter.extractions2,lastRow,col);
+  
+  col = setValue(e.parameter.oral1,lastRow,col);
+  col = setValue(e.parameter.oral2,lastRow,col);
+  col = setValue(e.parameter.oral3,lastRow,col);
+  col = setValue(e.parameter.oral4,lastRow,col);
+  col = setValue(e.parameter.oral5,lastRow,col);
+  col = setValue(e.parameter.oral6,lastRow,col);
+  
+  col = setValue(e.parameter.dentures1,lastRow,col);
+  col = setValue(e.parameter.dentures2,lastRow,col);
+  col = setValue(e.parameter.dentures3,lastRow,col);
+  col = setValue(e.parameter.dentures4,lastRow,col);
+  col = setValue(e.parameter.dentures5,lastRow,col);
+  col = setValue(e.parameter.dentures6,lastRow,col);
+  
+  col = setValue(e.parameter.implants1,lastRow,col);
+  col = setValue(e.parameter.implants2,lastRow,col);
+  col = setValue(e.parameter.implants3,lastRow,col);
+  col = setValue(e.parameter.implants4,lastRow,col);
+  
+  col = setValue(e.parameter.posterior1,lastRow,col);
+  col = setValue(e.parameter.posterior2,lastRow,col);
+  col = setValue(e.parameter.posterior3,lastRow,col);
+  col = setValue(e.parameter.posterior4,lastRow,col);
+  col = setValue(e.parameter.posterior5,lastRow,col);
+  col = setValue(e.parameter.posterior6,lastRow,col);
+  col = setValue(e.parameter.posterior7,lastRow,col);
+  col = setValue(e.parameter.posterior8,lastRow,col);
+  col = setValue(e.parameter.posterior9,lastRow,col);
+  col = setValue(e.parameter.posterior10,lastRow,col);
+  col = setValue(e.parameter.posterior11,lastRow,col);
+  col = setValue(e.parameter.posterior12,lastRow,col);
+  
+  col = setValue(e.parameter.ortho1,lastRow,col);
+  col = setValue(e.parameter.ortho2,lastRow,col);
+  col = setValue(e.parameter.ortho3,lastRow,col);
+  col = setValue(e.parameter.ortho4,lastRow,col);
+  
+  col = setValue(e.parameter.fillings,lastRow,col);
+  
+  col = setValue(e.parameter.comments,lastRow,col);
+  col = setValue(e.parameter.benefits,lastRow,col);
+  col = setValue(e.parameter.date,lastRow,col);
+  col = setValue(e.parameter.basicInfo21,lastRow,col);
+  col = setData(e.parameters.history,lastRow,col); // setData() Called
+  col = setValue(e.parameter.policy17,lastRow,311);
+  col = setValue(e.parameter.percentages12,lastRow,312);
+  col = setValue('=CONCATENATE(A'+lastRow+',"_",ROW(EW'+lastRow+'))',lastRow, 313);
+  col = setValue(e.parameter.policy18,lastRow,314); //Newly Added
+  col = setValue(e.parameter.policy19,lastRow,315);  //Newly Added
+  col = setValue(e.parameter.policy20,lastRow,316);   //Newly Added
+}

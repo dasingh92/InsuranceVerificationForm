@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smilepiont IV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <script>
+        google.script.run.withFailureHandler(failed).withSuccessHandler(dropdown).getDropdown("Office List", "A", 3, "basicInfo1");
+        google.script.run.withFailureHandler(failed).withSuccessHandler(table).pivotTable('ppo');
+        function dropdown(dropdown) {
+            var datalist = document.getElementsByClassName(dropdown[0]);
+            var len = dropdown.length;
+            var options = "";
+            for (i = 1; i < len; i++) {
+                options = options + "<option value='" + dropdown[i] + "'>" + dropdown[i] + "</option>";
+            }
+            for (n in datalist) {
+                datalist[n].innerHTML = options;
+            }
+        }
+        function table(table) {
+            document.getElementById("customers").innerHTML = table;
+        }
+        function failed(e) {
+            alert("Error = " + e);
+        }
+    </script>
+    <?!= include('FrontPageStylesheet'); ?>
+</head>
+
+<body>
+    <div class="page1">
+    <br>
+        <img src="https://www.caplinedentalservices.com/wp-content/themes/newsmag-child/images/logo.png" class="center"></br></br>
+        
+        <h4 style='padding:0px;text-align:center;font-size:18pt;transform: translateY(-50px)'>Insurance Verification Portal</h4>
+        <div class="section1">
+            <section>
+                <h3>(If information available in our database)</h3>
+                <form action="https://script.google.com/macros/s/AKfycbznTLyuOBFuJLLpZraUYAF_BXb_lJzRz5liyP4O4oairgPl_GDL/exec" method="POST"
+                    target='_blank'>
+                    <!-- IV Form web app url where the database sheet is linked and request will be processed-->
+                    <h4>Recall Patients</h4>
+                    <input type="text" name="form" value="pat" style="display: none">
+                    <select class="basicInfo1" name="officeName" style="padding: 3px"></select>
+                    <input type="text" name="name" placeholder="Patient Name" style="padding: 3px">
+                    <input type="date" name="dob">
+                    <!-- YYYY-MM-DD -->
+                    <input type="submit" value="Search">
+                </form>
+                <form action="https://script.google.com/macros/s/AKfycbznTLyuOBFuJLLpZraUYAF_BXb_lJzRz5liyP4O4oairgPl_GDL/exec" method="POST"
+                    target='_blank'>
+                    <!-- IV Form web app url where the database sheet is linked and request will be processed-->
+                    <h4>Search by policy holder</h4>
+                    <input type="text" name="form" value="pol" style="display: none">
+                    <select class="basicInfo1" name="officeName" style="padding: 3px"></select>
+                    <input type="text" name="policyHolder" placeholder="Policy Holder" style="padding: 3px">
+                    <input type="date" name="dob">
+                    <!-- YYYY-MM-DD -->
+                    <input type="submit" value="Search">
+                </form>
+                <form action="https://script.google.com/macros/s/AKfycbznTLyuOBFuJLLpZraUYAF_BXb_lJzRz5liyP4O4oairgPl_GDL/exec" method="POST"
+                    target='_blank'>
+                    <!-- IV Form web app url where the database sheet is linked and request will be processed-->
+                    <h4>Search by employer</h4>
+                    <input type="text" name="form" value="emp" style="display: none">
+                    <select class="basicInfo1" name="officeName" style="padding: 3px"></select>
+                    <input type="text" name="empName" placeholder="Employer Name" style="padding: 3px">
+                    <input type="submit" value="Search">
+                </form>
+            </section>
+            <section>
+                <h4>Start with blank IV Form</h4>
+                <table style='width:100%;border:0' >
+                <tr>
+                <td style="border:0">
+                <form action="https://script.google.com/macros/s/AKfycbznTLyuOBFuJLLpZraUYAF_BXb_lJzRz5liyP4O4oairgPl_GDL/exec" method="GET"
+                    target='_blank'>
+                    <!-- Capline IV Page web app url where the new Blank form will be opened-->
+                    <input type="text" name="form" value="blank" style="display: none">
+                    <input type="text" name="slectedForm" value="ppoForm" style="display: none">
+                    <input type="submit" value="Blank PPO IVF" style='width:50%'>
+                </form>
+                </td>
+                <td style="border:0">
+                <form action="https://script.google.com/macros/s/AKfycbznTLyuOBFuJLLpZraUYAF_BXb_lJzRz5liyP4O4oairgPl_GDL/exec" method="GET"
+                    target='_blank'>
+                    <!-- Capline IV Page web app url where the new Blank form will be opened-->
+                    <input type="text" name="form" value="blank" style="display: none">
+                    <input type="text" name="slectedForm" value="medicaidForm" style="display: none">
+                    <input type="submit" value="Blank Medicaid IVF" style='width:50%'>
+                </form>
+                </td>
+                </tr>
+                </table>
+            </section>
+        </div>
+        <div class="section2">
+            <h4 style='padding:0px;text-align:center;font-size: 14pt'>Pending Requested IVs
+            <input type="radio" name="plan" value="PPO" id='ppo' style="heigth:5px;" onclick="google.script.run.withFailureHandler(failed).withSuccessHandler(table).pivotTable('ppo')" checked />
+            <label for="ppo" style="padding:10px;">PPO</label>
+            <input type="radio" name="plan" value="Medicaid" id='medicaid' id='ppo' onclick="google.script.run.withFailureHandler(failed).withSuccessHandler(table).pivotTable('medicaid')" />
+            <label for="medicaid" style="padding: 10px">Medicaid</label>
+            </h4>
+            <table id="customers" style="width: 100%;">
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

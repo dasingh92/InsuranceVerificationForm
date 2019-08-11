@@ -1,0 +1,397 @@
+<style type="text/css">
+    input,
+    select {
+        border-radius: 5%;
+        font-size: 12pt;
+    }
+
+    input[type="submit"] {
+        padding: 5px 0px 5px 0px;
+        width: 20%;
+        height: 30%;
+        border: 0;
+        box-shadow: 5px 5px 5px gray;
+        background: #1ca7ed;
+        color: aliceblue;
+    }
+
+    input[type="submit"]:active {
+        box-shadow: 0px 0px 0px gray;
+        transform: translateY(4px);
+    }
+    th{
+        border : 1px solid black;
+        border-collapse : collapse;
+    }
+    .buttonload {
+        border: none;
+        /* Remove borders */
+        color: white;
+        /* White text */
+        padding: 12px 24px;
+        /* Some padding */
+        font-size: 16px;
+        /* Set a font-size */
+    }
+
+    /* Add a right margin to each icon */
+
+    .fa {
+        margin-left: -12px;
+        margin-right: 8px;
+    }
+
+    table td {
+        padding: 0px 10px 0px 0px;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    select option {
+        text-align: center;
+    }
+
+    body {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #page_1 {
+        position: relative;
+        overflow: visible;
+        margin: 15px 0px 36px 18px;
+        padding: 0px;
+        border: none;
+        width: 98%;
+    }
+
+    #page_1 #p1dimg1 {
+        position: absolute;
+        top: 303px;
+        left: 0px;
+        z-index: -1;
+        width: 98%;
+    }
+
+    #page_1 #p1dimg1 #p1img1 {
+        width: 98%;
+    }
+
+
+
+
+    .ft0 {
+        font: 1px 'Calibri';
+
+    }
+
+    .ft1 {
+        font: bold 15px 'Calibri';
+
+    }
+
+    .ft2 {
+        font: 15px 'Calibri';
+        color: #7f7f7f;
+
+    }
+
+    .ft3 {
+        font: 15px 'Calibri';
+        color: #808080;
+
+    }
+
+    .ft4 {
+        font: 15px 'Calibri';
+
+    }
+
+    .ft5 {
+        font: 15px 'Calibri';
+
+    }
+
+    .ft6 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #385623;
+
+    }
+
+    .ft7 {
+        font: 15px 'Calibri';
+        color: #385623;
+
+    }
+
+    .ft8 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #4472c4;
+
+    }
+
+    .ft9 {
+        font: 15px 'Calibri';
+        color: #4472c4;
+
+    }
+
+    .ft10 {
+        font: bold 12px 'Calibri';
+        color: #4472c4;
+
+    }
+
+    .ft11 {
+        font: bold 12px 'Calibri';
+        text-decoration: underline;
+        color: #7030a0;
+
+    }
+
+    .ft12 {
+        font: 12px 'Calibri';
+        text-decoration: underline;
+        color: #7030a0;
+
+    }
+
+    .ft13 {
+        font: 15px 'Calibri';
+        color: #7030a0;
+
+    }
+
+    .ft14 {
+        font: bold 15px 'Calibri';
+        color: #385623;
+
+    }
+
+    .ft15 {
+        font: 15px 'Calibri';
+        color: #4472c4;
+
+    }
+
+    .ft16 {
+        font: 11px 'Calibri';
+        color: #385623;
+
+    }
+
+    .ft17 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #ff0000;
+
+    }
+
+    .ft18 {
+        font: 15px 'Calibri';
+        color: #ff0000;
+
+    }
+
+    .ft19 {
+        font: bold 12px 'Calibri';
+        color: #ff0000;
+
+    }
+
+    .ft20 {
+        font: 11px 'Calibri';
+        color: #7030a0;
+
+    }
+
+    .ft21 {
+        font: 1px 'Calibri';
+
+    }
+
+    .ft22 {
+        font: 15px 'Calibri';
+        color: #843c0b;
+
+    }
+
+    .ft23 {
+        font: 15px 'Calibri';
+        color: #ff0000;
+
+    }
+
+    .ft24 {
+        font: bold 12px 'Calibri';
+        color: #2f5496;
+
+    }
+
+    .ft25 {
+        font: 15px 'Calibri';
+        color: #2f5496;
+
+    }
+
+    .ft26 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #1f3864;
+
+    }
+
+    .ft27 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #843c0b;
+
+    }
+
+    .ft28 {
+        font: 12px 'Calibri';
+        color: #843c0b;
+
+    }
+
+    .ft29 {
+        font: 1px 'Calibri';
+
+    }
+
+    .ft30 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #0070c0;
+
+    }
+
+    .ft31 {
+        font: 15px 'Calibri';
+        color: #0070c0;
+
+    }
+
+    .ft32 {
+        font: bold 12px 'Calibri';
+        color: #0070c0;
+
+    }
+
+    .ft33 {
+        font: 1px 'Calibri';
+
+    }
+
+    .ft34 {
+        font: 15px 'Calibri';
+
+    }
+
+    .ft35 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #c00000;
+
+    }
+
+    .ft36 {
+        font: 12px 'Calibri';
+        color: #c00000;
+
+    }
+
+    .ft37 {
+        font: bold 15px 'Calibri';
+        color: #c00000;
+
+    }
+
+    .ft38 {
+        font: 15px 'Calibri';
+        color: #538135;
+
+    }
+
+    .ft39 {
+        font: bold 15px 'Calibri';
+        text-decoration: underline;
+        color: #2f5496;
+
+    }
+
+    .ft40 {
+        font: 15px 'Calibri';
+        color: #2f5496;
+
+    }
+
+    .ft41 {
+        font: italic 12px 'Calibri';
+        color: #2f5496;
+
+    }
+
+    .ft42 {
+        font: bold 15px 'Calibri';
+        color: #7030a0;
+
+    }
+
+    .ft43 {
+        font: 12px 'Calibri';
+        color: #1f3864;
+
+    }
+
+    .ft44 {
+        font: 12px 'Calibri';
+        color: #1f3864;
+
+    }
+
+    .ft45 {
+        font: 1px 'Calibri';
+    }
+
+    .ft46 {
+        font: 13px 'Calibri';
+    }
+
+    .t0 {
+        width: 100%;
+        margin-left: 1px;
+        font: 15px 'Calibri';
+        color: #7f7f7f;
+    }
+
+    .t0 input,
+    t0 select {
+        float: right;
+    }
+
+    .t1 {
+        margin-left: 1px;
+        font: 20pt 'Calibri';
+    }
+
+    .t1 input,
+    .t1 select {
+        width: 100%;
+    }
+
+    .t4,
+    .t4 td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 0;
+    }
+
+    .t4 input {
+        width: 100%;
+    }
+</style>

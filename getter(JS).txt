@@ -1,0 +1,159 @@
+function getValuesByPatient(officeName,patientName,patientDob){
+  var query = "=FILTER('"+officeName+" Database'!A2:KZ,'"+officeName
+  +" Database'!A2:A=\""+officeName+"\",'"+officeName
+  +" Database'!B2:B=\""+patientName+"\",'"+officeName
+  +" Database'!F2:F=IF(\""+patientDob+"\"=\"\",\"\",DATEVALUE(\""+patientDob+"\")))";
+  return search(query,officeName);
+}
+
+function getValuesByPolicy(officeName,polName,polDob){
+  var query = "=FILTER('"+officeName+" Database'!A2:KZ,'"+officeName
+  +" Database'!A2:A=\""+officeName+"\",'"+officeName
+  +" Database'!E2:E=\""+polName+"\",'"+officeName
+  +" Database'!I2:I=IF(\""+polDob+"\"=\"\",\"\",DATEVALUE(\""+polDob+"\")))";
+  return search(query,officeName);
+}
+
+function getValuesByEmployer(officeName,empName){
+  var query = "=FILTER('"+officeName+" Database'!A2:KZ,'"+officeName
+  +" Database'!A2:A=\""+officeName+"\",'"+officeName
+  +" Database'!J2:J=\""+empName+"\")";
+  return search(query,officeName);
+}
+
+function getByStartIV(sName, sPolicyHolderName, sInsName, sAppointmentDate, sIvType, sReqDate, sAssignedTo){
+  var query = "=FILTER('PPO Data'!A2:Y,'PPO Data'!X2:X =\""+sName+"\", 'PPO Data'!P2:P = \""+sPolicyHolderName+"\", 'PPO Data'!N2:N= \""+sInsName
+  +"\", 'PPO Data'!K2:K = IF(\""+sAppointmentDate+"\"=\"\",\"\",DATEVALUE(\""+sAppointmentDate+"\")) , 'PPO Data'!I2:I = \""+sIvType
+  +"\" , 'PPO Data'!H2:H = IF(\""+sReqDate+"\"=\"\",\"\",DATEVALUE(\""+sReqDate+"\")) , 'PPO Data'!C2:C = \""+sAssignedTo+"\")";
+  return searchIV(query);
+}
+
+function getHistory(selected,officeName){
+  if(selected==="PPO" || selected==="TMHP"){
+    return "empty";
+  }
+  var sheet = getHistorySheet(officeName).getSheetByName("History");
+  var lastRow = sheet.getLastRow();
+  var values = [], i, count = 0;
+  Logger.log(sheet);
+  Logger.log(lastRow);
+  
+  switch(selected){
+    case "Denta Quest":
+      for(i = 2; i<= 183; i++ ){
+        if(sheet.getRange("A"+i).getDisplayValue() == ""){ break; }
+        values[count] = sheet.getRange("A"+i).getDisplayValue();
+        count++;
+        values[count] = sheet.getRange("B"+i).getDisplayValue();
+        count++;
+        values[count] = sheet.getRange("C"+i).getDisplayValue();
+        count++;
+      }
+      break;
+    case "MCNA":
+      for(i = 2; i<= 183; i++ ){
+        if(sheet.getRange("F"+i).getDisplayValue() == ""){ break; }
+        values[count] = sheet.getRange("F"+i).getDisplayValue();
+        count++;
+        values[count] = sheet.getRange("G"+i).getDisplayValue();
+        count++;
+        values[count] = sheet.getRange("H"+i).getDisplayValue();
+        count++;
+      }
+      break;
+  }
+  Logger.log(values);
+  return values;
+}
+
+function getValuesByEmpName(officeName,empName){
+  var sheet = getDb(officeName).getSheetByName("Query");
+  var query = "=FILTER('"+officeName+" Database'!A2:KZ,'"+officeName
+  +" Database'!A2:A=\""+officeName+"\",'"+officeName
+  +" Database'!J2:J=\""+empName+"\")";
+  sheet.getRange(2,1).setValue(query);
+  Utilities.sleep(500);
+  
+  var values = [];
+  var count=0;
+    
+  for(j=21;j<=130;j++){
+    values[count] = sheet.getRange(2,j).getDisplayValue();
+    count++;
+  }
+  values[count] = sheet.getRange(2,312).getDisplayValue(); // Claims filling per day
+  count++;
+  values[count] = sheet.getRange(2,20).getDisplayValue(); // Insurance Address
+  count++;
+  values[count] = sheet.getRange(2,18).getDisplayValue(); // Payer ID
+  count++;
+  values[count] = sheet.getRange(2,7).getDisplayValue(); // Insurance Contact
+  count++;
+  values[count] = sheet.getRange(2,3).getDisplayValue(); // Insurance Name
+  count++;
+  values[count] = sheet.getRange(2,14).getDisplayValue(); // Group#
+  count++;
+  values[count] = sheet.getRange(2,311).getDisplayValue(); // CRA
+  count++;
+  values[count] = "Fill By Employee";
+  if(values[0] !== "#N/A"){
+    return values;
+  } else{
+    return "Not Found";
+  }
+}
+
+//Get Dynamic Dropdowns
+function getDropdown(sheetName,col,i,id){
+  var sh = sh2.getSheetByName(sheetName);
+  var values = [] ;
+  var count = 2;
+  var lastRow = sh.getLastRow();
+  var temp;
+  values[0]=id;
+  values[1]="";
+  
+  for(i ; i<= lastRow; i++){
+    temp = sh.getRange(col+i).getDisplayValue();
+    if(temp==""){
+      break
+    } else{
+      values[count] = temp;
+      count++;
+    }
+  }
+  return values; 
+}
+
+//Funtion to retrieve data in the HTML template as scriptlets
+function getValue(col){
+  var row = PropertiesService.getScriptProperties().getProperty('row');
+  var value = sheet.getRange(row,col).getDisplayValue();
+  return value;
+}
+
+//Funtion to retrieve data in the HTML template as scriptlets
+function getData(loopEnd,col){
+  var row = PropertiesService.getScriptProperties().getProperty('row');
+  var array = [];
+  for(i=0;i<=loopEnd;i++){
+    array[i] = sheet.getRange(row, col).getDisplayValue();
+    col++;
+  }
+  return array;
+}
+
+//Function compares the given code to spreadsheet and returns applicable name of provider.
+function fetchFS(officeName, policy18, policy19) {
+  var spreadSheet=SpreadsheetApp.openById("1xEjT_cfv7x9ifLzvBhnmxDg8WABZM-DvsWJeFJBID2s");
+  var currentSheet=spreadSheet.getSheetByName(officeName);
+  var data=currentSheet.getRange(2, 1, currentSheet.getLastRow(), 4).getValues();
+  var removed=currentSheet.getRange(2, 6, currentSheet.getLastRow(), 6).getValues();   
+     for(var i=0; i<data.length; i++){
+      if(data[i][1]==policy18 && data[i][3]==policy19 && removed[i][0]!="XXX"){
+          return data[i][0];
+        }
+     }
+return "Please check the codes entered";
+}
+

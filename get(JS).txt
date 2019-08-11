@@ -1,0 +1,125 @@
+function doGet(e) {
+  var form = e.parameter.form;
+  var office = e.parameter.officeName;
+  var selectedForm = e.parameter.slectedForm;
+  var html,plan;
+  //If 'Blank IVF' button is clicked
+  if(form=="blank"){
+    return blankForm(selectedForm);
+  } 
+  else if(office){
+    plan = e.parameter.plan;
+    return HtmlService.createTemplate((pendingIV(office,plan))).evaluate();
+  }
+  else{
+    return HtmlService.createTemplateFromFile('Capline IV Front Page').evaluate();
+  }
+}
+
+//Show pending IVs Office wise
+function pendingIV(officeName,plan){
+  var sheet , query , table, lastRow, office, htmlOutput,info = [], col = [] , i;
+  
+  if(plan=="ppo"){
+    table = "<table id='customers' style='width:100%'><th>Patient Name</th><th>Policy Holder Name</th><th>Insurance Name</th><th>Requested Date</th><th>Appointment Date</th><th>IV Type</th><th>Assigned To</th><th>Start IV</th>";
+    query  = "=FILTER('PPO Data'!A2:Y,'PPO Data'!A2:A =\""+officeName+"\")";
+    sheet = sh3.getSheetByName("Query");
+    sheet.getRange(2,1).setValue(query);
+    Utilities.sleep(500);
+    col[0] = "A"; //Office Name
+    col[1] = "X"; //Patient Name
+    col[2] = "P"; //Policy Holder Name
+    col[3] = "N"; //Insurance Name
+    col[4] = "H"; //Requested Date
+    col[5] = "K"; //Appointment Date
+    col[6] = "I"; //IV Type
+    col[7] = "C"; //Assigned To
+  } 
+  else{
+    table = "<table id='customers' style='width:100%'><th>Patient Name</th><th>Policy Holder Name</th><th>Insurance Name</th><th>Verified On</th><th>Appointment Date</th><th>Provider Assigned</th><th>Verified By</th><th>Start IV</th>";
+    sheet = sh3.getSheetByName("Medicaid Data");
+    col[0] = "C"; //Office Name
+    col[1] = "I"; //Patient Name
+    col[2] = "G"; //Policy Holder Name
+    col[3] = "L"; //Insurance Name
+    col[4] = "P"; //Verified On
+    col[5] = "D"; //Appointment Date
+    col[6] = "M"; // Provider Assigned
+    col[7] = "O"; //Verified By
+  }
+  
+  lastRow = sheet.getLastRow();  
+  htmlOutput = "<head><?!= include('Pending Request Table Stylesheet'); ?></head>"
+  + "<body>"
+  + " <div style='width:100%;margin-left:5%;margin-right:5%'>"
+  + "<h4 style='padding:0px;text-align:center;font-size:18pt'>Pending IVs for "+officeName+"</h4>";
+  
+  for(i=1; i<=lastRow; i++){
+    office = sheet.getRange(col[0]+i).getDisplayValue();
+    if(office==officeName){
+      info[0] = sheet.getRange(col[1]+i).getDisplayValue(); 
+      info[1] = sheet.getRange(col[2]+i).getDisplayValue(); 
+      info[2] = sheet.getRange(col[3]+i).getDisplayValue(); 
+      info[3] = sheet.getRange(col[4]+i).getDisplayValue(); 
+      info[4] = sheet.getRange(col[5]+i).getDisplayValue(); 
+      info[5] = sheet.getRange(col[6]+i).getDisplayValue(); 
+      info[6] = sheet.getRange(col[7]+i).getDisplayValue(); 
+      table = table
+      + '<tr>'
+      + '<form action="'+appUrl+'" method="POST" target="_blank">'
+      + '<input type="hidden" name="form" value="startIV">'
+      + '<input type="hidden" name="officeName" value="'+officeName+'">'
+      + '<input type="hidden" name="plan" value="'+plan+'">'
+      + '<td><input type="hidden" name="name" value="'+info[0]+'">'+info[0]+'</td>'
+      + '<td><input type="hidden" name="policyHolderName" value="'+info[1]+'">'+info[1]+'</td>'
+      + '<td><input type="hidden" name="insName" value="'+info[2]+'">'+info[2]+'</td>'
+      + '<td><input type="hidden" name="reqDate" value="'+info[3]+'">'+info[3]+'</td>'
+      + '<td><input type="hidden" name="appointmentDate" value="'+info[4]+'">'+info[4]+'</td>'
+      + '<td><input type="hidden" name="ivType" value="'+info[5]+'">'+info[5]+'</td>'
+      + '<td><input type="hidden" name="assignedTo" value="'+info[6]+'">'+info[6]+'</td>'
+      + '<td><input type="submit" value="Start IV"></td>'
+      + '</form>'
+      + '</tr>';
+    }
+  }
+  table = table + "</table></div></body>";
+  htmlOutput =  htmlOutput + table;
+  
+  return htmlOutput;
+}
+
+function pivotTable(plan){
+  var sheet = sh3.getSheetByName("Pivot Data");
+  var lastRow = sheet.getLastRow();
+  var table = "";
+  var officeNames, count , i, j, colStart;
+  if(plan=="ppo"){
+    colStart=1;
+  }
+  else{
+    colStart=8;
+  }
+  
+  for(i=1; i<=5; i++){
+    table= table+"<th>"+sheet.getRange(1 , i).getDisplayValue()+"</th>";
+  }
+  
+  for(i=2 ;i<=lastRow ;i++){
+    table = table+"<tr>";
+    for(j=colStart; j<=colStart+4 ; j++){
+      if(j==colStart){
+        officeNames = sheet.getRange(i,j).getDisplayValue();
+        if(officeNames != ""){
+          table = table + "<td><a href='"+appUrl+"?officeName="+officeNames+"&plan="+plan+"' target='_blank'>"+officeNames+"</a></td>";
+        }
+        else{break};
+      }
+      else {
+        count = sheet.getRange(i,j).getDisplayValue();
+        table = table + "<td><span style='float: right;'>"+count+"</span></td>";
+      }
+    }
+    table= table + "</tr>";
+  }
+  return table;
+}

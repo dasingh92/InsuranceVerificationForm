@@ -1,0 +1,64 @@
+//To search entry by passed parameters
+function search(query,officeName){
+  var sheet = getDb(officeName).getSheetByName("Query");
+  sheet.getRange(2,1).setValue(query);
+  Utilities.sleep(500);
+  var j, lastRow = sheet.getLastRow();
+  var values = [];
+  var count=0;
+ 
+  for(j=1;j<=500;j++){
+    values[count] = sheet.getRange(lastRow,j).getDisplayValue();
+    count++;
+  }
+  if(values[0] != "#N/A"){
+    return values;
+  } else{
+    return "Not Found";
+  }
+}
+
+//Function to search from OFFICE DATA sheet
+function searchIV(query) {
+  var sheet = sh3.getSheetByName("Query");
+  var values = [];
+  sheet.getRange(2,1).setValue(query);
+  Utilities.sleep(500);
+  values[0] = sheet.getRange(2,1).getDisplayValue(); //"A" ;
+  values[1] = sheet.getRange(2,24).getDisplayValue(); //"X" ;
+  values[2] = sheet.getRange(2,14).getDisplayValue(); //"N" ;
+  values[3] = sheet.getRange(2,16).getDisplayValue(); //"P" ;
+  values[4] = sheet.getRange(2,25).getDisplayValue(); //"Y" ;
+  values[5] = sheet.getRange(2,15).getDisplayValue(); //"O" ;
+  values[6] = sheet.getRange(2,17).getDisplayValue(); //"Q" ;
+  values[7] = sheet.getRange(2,10).getDisplayValue(); //"J" ;
+  values[8] = sheet.getRange(2,20).getDisplayValue(); //"T" ;
+  values[9] = sheet.getRange(2,18).getDisplayValue(); //"R" ;
+  values[10] = sheet.getRange(2,11).getDisplayValue(); //"K" ;
+  values[11] = sheet.getRange(2,21).getDisplayValue(); //"U" ;
+  values[12] = sheet.getRange(2,22).getDisplayValue(); //"V" ;
+  values[13] = sheet.getRange(2,3).getDisplayValue(); //"C" ;
+  values[14] = sheet.getRange(2,13).getDisplayValue(); //"M" ;
+  
+  if(values[0] != "#N/A"){
+    return values;
+  } else{
+    return "Not Found";
+  }
+}
+
+function searchValue(sheetName,officeName,col,i,id){
+  var sheet = sh2.getSheetByName(sheetName);
+  var lastRow = sheet.getLastRow();
+  var temp;
+  for(i ; i <= lastRow; i++){
+    temp = sheet.getRange(col+i).getDisplayValue();
+    if(temp==""){
+      break;
+    }
+    if(temp==officeName){
+      return [id , sheet.getRange("C"+i).getDisplayValue()];
+    }
+  }
+  return "Not Found";
+}

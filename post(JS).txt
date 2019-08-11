@@ -1,0 +1,35 @@
+function doPost(e) {
+  var form = e.parameter.form;
+  var officeName , pdfUrl, lastRow , array = [];
+  if(form=="pat"){
+    return recallByPatient(e.parameter.officeName , e.parameter.name , e.parameter.dob);
+  }
+  else if(form=="pol"){
+    return recallByPolicy(e.parameter.officeName , e.parameter.policyHolder , e.parameter.dob);
+  }
+  else if(form=="emp"){
+    return recallByEmployer(e.parameter.officeName , e.parameter.empName);
+  }
+  else if(form=="startIV"){
+    return startIV(e.parameter.name , e.parameter.policyHolderName , e.parameter.insName , e.parameter.appointmentDate
+                   , e.parameter.ivType , e.parameter.reqDate , e.parameter.assignedTo , e.parameter.plan);
+  }
+  else if(form=="record"){
+    officeName=e.parameter.basicInfo1;
+    //In Which sheet to store sh or sh2
+    sheet=getDb(officeName).getSheetByName(officeName+" Database");
+    
+    lastRow = sheet.getLastRow();
+    lastRow++;
+    PropertiesService.getScriptProperties().setProperty('row', lastRow); //Globally Declare a Key 'row' with value 'lastRow' for the row in which new entries are added
+    
+    set(e,lastRow); // Set all values
+    array[0] = e.parameter.basicInfo1;
+    array[1] = e.parameter.basicInfo2;
+    
+    //printAsPdf(dataArray)
+    pdfUrl = printAsPdf(array,sheet.getRange("LA"+lastRow).getDisplayValue());
+    
+    return HtmlService.createHtmlOutput("<h1>Form updated click to open and download <a href='"+pdfUrl+"' target='_top'> PDF File </a></h1>");
+  }
+}

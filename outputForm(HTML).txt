@@ -1,0 +1,2837 @@
+<HTML>
+
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META http-equiv="X-UA-Compatible" content="IE=8">
+    <TITLE>Smilepoint - Insurance Verification Form</TITLE>
+    <META name="generator" content="BCL easyConverter SDK 5.0.08">
+    <STYLE type="text/css">
+        table,
+        td {
+            padding-left: 10px;
+            font-size: 10px;
+        }
+
+        input {
+            float: right;
+            margin-right: 2%;
+        }
+
+        select {
+            float: right;
+            margin-right: 2%;
+            width: 50%;
+            text-align: center
+        }
+
+        body {
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+
+        #page_1 {
+            position: relative;
+            overflow: visible;
+            margin: 15px 0px 36px 18px;
+            padding: 0px;
+            border: none;
+            width: 98%;
+        }
+
+        #page_1 #p1dimg1 {
+            position: absolute;
+            top: 303px;
+            left: 0px;
+            z-index: -1;
+            width: 98%;
+        }
+
+        #page_1 #p1dimg1 #p1img1 {
+            width: 98%;
+        }
+
+
+
+
+        .ft0 {
+            font: 1px 'Calibri';
+            line-height: 1px;
+        }
+
+        .ft1 {
+            font: bold 15px 'Calibri';
+            line-height: 18px;
+        }
+
+        .ft2 {
+            font: 15px 'Calibri';
+            color: #7f7f7f;
+            line-height: 18px;
+        }
+
+        .ft3 {
+            font: 15px 'Calibri';
+            color: #808080;
+            line-height: 18px;
+        }
+
+        .ft4 {
+            font: 12px 'Calibri';
+            line-height: 14px;
+        }
+
+        .ft5 {
+            font: 11px 'Calibri';
+            line-height: 13px;
+        }
+
+        .ft6 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #385623;
+            line-height: 14px;
+        }
+
+        .ft7 {
+            font: 12px 'Calibri';
+            color: #385623;
+            line-height: 14px;
+        }
+
+        .ft8 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #4472c4;
+            line-height: 14px;
+        }
+
+        .ft9 {
+            font: 12px 'Calibri';
+            color: #4472c4;
+            line-height: 14px;
+        }
+
+        .ft10 {
+            font: bold 12px 'Calibri';
+            color: #4472c4;
+            line-height: 14px;
+        }
+
+        .ft11 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #7030a0;
+            line-height: 14px;
+        }
+
+        .ft12 {
+            font: 12px 'Calibri';
+            text-decoration: underline;
+            color: #7030a0;
+            line-height: 14px;
+        }
+
+        .ft13 {
+            font: 12px 'Calibri';
+            color: #7030a0;
+            line-height: 14px;
+        }
+
+        .ft14 {
+            font: bold 12px 'Calibri';
+            color: #385623;
+            line-height: 14px;
+        }
+
+        .ft15 {
+            font: 11px 'Calibri';
+            color: #4472c4;
+            line-height: 13px;
+        }
+
+        .ft16 {
+            font: 11px 'Calibri';
+            color: #385623;
+            line-height: 13px;
+        }
+
+        .ft17 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #ff0000;
+            line-height: 14px;
+        }
+
+        .ft18 {
+            font: 12px 'Calibri';
+            color: #ff0000;
+            line-height: 14px;
+        }
+
+        .ft19 {
+            font: bold 12px 'Calibri';
+            color: #ff0000;
+            line-height: 14px;
+        }
+
+        .ft20 {
+            font: 11px 'Calibri';
+            color: #7030a0;
+            line-height: 13px;
+        }
+
+        .ft21 {
+            font: 1px 'Calibri';
+            line-height: 8px;
+        }
+
+        .ft22 {
+            font: 11px 'Calibri';
+            color: #843c0b;
+            line-height: 13px;
+        }
+
+        .ft23 {
+            font: 11px 'Calibri';
+            color: #ff0000;
+            line-height: 13px;
+        }
+
+        .ft24 {
+            font: bold 12px 'Calibri';
+            color: #2f5496;
+            line-height: 14px;
+        }
+
+        .ft25 {
+            font: 12px 'Calibri';
+            color: #2f5496;
+        }
+
+        .ft26 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #1f3864;
+            line-height: 14px;
+        }
+
+        .ft27 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #843c0b;
+            line-height: 14px;
+        }
+
+        .ft28 {
+            font: 12px 'Calibri';
+            color: #843c0b;
+        }
+
+        .ft29 {
+            font: 1px 'Calibri';
+            line-height: 6px;
+        }
+
+        .ft30 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #0070c0;
+            line-height: 14px;
+        }
+
+        .ft31 {
+            font: 12px 'Calibri';
+            color: #0070c0;
+        }
+
+        .ft32 {
+            font: bold 12px 'Calibri';
+            color: #0070c0;
+            line-height: 14px;
+        }
+
+        .ft33 {
+            font: 1px 'Calibri';
+            line-height: 5px;
+        }
+
+        .ft34 {
+            font: 15px 'Calibri';
+            line-height: 18px;
+        }
+
+        .ft35 {
+            font: bold 12px 'Calibri';
+            text-decoration: underline;
+            color: #c00000;
+            line-height: 14px;
+        }
+
+        .ft36 {
+            font: 12px 'Calibri';
+            color: #c00000;
+            line-height: 14px;
+        }
+
+        .ft37 {
+            font: bold 12px 'Calibri';
+            color: #c00000;
+            line-height: 14px;
+        }
+
+        .ft38 {
+            font: 12px 'Calibri';
+            color: #538135;
+            line-height: 14px;
+        }
+
+        .ft39 {
+            font: bold 11px 'Calibri';
+            text-decoration: underline;
+            color: #2f5496;
+            line-height: 13px;
+        }
+
+        .ft40 {
+            font: 11px 'Calibri';
+            color: #2f5496;
+            line-height: 13px;
+        }
+
+        .ft41 {
+            font: italic 12px 'Calibri';
+            color: #2f5496;
+            line-height: 14px;
+        }
+
+        .ft42 {
+            font: bold 12px 'Calibri';
+            color: #7030a0;
+            line-height: 14px;
+        }
+
+        .ft43 {
+            font: 11px 'Calibri';
+            color: #1f3864;
+            line-height: 13px;
+        }
+
+        .ft44 {
+            font: 12px 'Calibri';
+            color: #1f3864;
+            line-height: 14px;
+        }
+
+        .ft45 {
+            font: 1px 'Calibri';
+            line-height: 11px;
+        }
+
+        .ft46 {
+            font: 13px 'Calibri';
+            line-height: 15px;
+        }
+
+        .t0 {
+            width: 100%;
+            margin-left: 1px;
+            font: 15px 'Calibri';
+            color: #7f7f7f;
+        }
+
+        .t1 {
+            width: 100%;
+            margin-left: 1px;
+            font: 11px 'Calibri';
+        }
+
+        .t1 input {
+            width: 10%;
+        }
+
+        .t2 {
+            width: 100%;
+            margin-left: 8px;
+            margin-top: 7px;
+            font: 12px 'Calibri';
+            color: #7030a0;
+        }
+
+        .t2 input {
+            width: 10%;
+        }
+
+        .t3 {
+            width: 100%;
+            margin-left: 12px;
+            margin-top: 6px;
+            font: 12px 'Calibri';
+            color: #0070c0;
+        }
+
+        .t3 input {
+            width: 10%;
+        }
+
+        .t4 {
+            width: 100%;
+            margin-left: 1px;
+            margin-top: 2px;
+            font: 12px 'Calibri';
+        }
+
+        .t5 {
+            width: 100%;
+            margin-left: 1px;
+            margin-top: 23px;
+            font: 13px 'Calibri';
+        }
+
+        .lastT,
+        .lastT td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </STYLE>
+    <SCRIPT>       
+                        // Google App script Scriptlets
+                        <? 
+                        var basicInfo1 = getValue(1);
+        var basicInfo2 = getValue(2);
+        var basicInfo3 = getValue(3);
+        var basicInfo4 = getValue(4);
+        var basicInfo5 = getValue(5);
+        var basicInfo6 = getValue(6);
+        var basicInfo7 = getValue(7);
+        var basicInfo8 = getValue(8);
+        var basicInfo9 = getValue(9);
+        var basicInfo10 = getValue(10);
+        var basicInfo11 = getValue(11);
+        var basicInfo12 = getValue(12);
+        var basicInfo13 = getValue(13);
+        var basicInfo14 = getValue(14);
+        var basicInfo15 = getValue(15);
+        var basicInfo16 = getValue(16);
+        var basicInfo17 = getValue(17);
+        var basicInfo18 = getValue(18);
+        var basicInfo19 = getValue(19);
+        var basicInfo20 = getValue(20);
+
+        var policy1 = getValue(21);
+        var policy2 = getValue(22);
+        var policy3 = getValue(23);
+        var policy4 = getValue(24);
+        var policy5 = getValue(25);
+        var policy6 = getValue(26);
+        var policy7 = getValue(27);
+        var policy8 = getValue(28);
+        var policy9 = getValue(29);
+        var policy10 = getValue(30);
+        var policy11 = getValue(31);
+        var policy12 = getValue(32);
+        var policy13 = getValue(33);
+        var policy14 = getValue(34);
+        var policy15 = getValue(35);
+        var policy16 = getValue(36);
+
+        var percentages1 = getValue(37);
+        var percentages2 = getValue(38);
+        var percentages3 = getValue(39);
+        var percentages4 = getValue(40);
+        var percentages5 = getValue(41);
+        var percentages6 = getValue(42);
+        var percentages7 = getValue(43);
+        var percentages8 = getValue(44);
+        var percentages9 = getValue(45);
+        var percentages10 = getValue(46);
+        var percentages11 = getValue(47);
+
+        var prosthetics1 = getValue(48);
+        var prosthetics2 = getValue(49);
+        var prosthetics3 = getValue(50);
+        var prosthetics4 = getValue(51);
+
+        var waitingPeriod1 = getValue(52);
+        var waitingPeriod2 = getValue(53);
+
+        var ssc1 = getValue(54);
+        var ssc2 = getValue(55);
+
+        var exams1 = getValue(56);
+        var exams2 = getValue(57);
+        var exams3 = getValue(58);
+        var exams4 = getValue(59);
+
+        var xrays1 = getValue(60);
+        var xrays2 = getValue(61);
+        var xrays3 = getValue(62);
+        var xrays4 = getValue(63);
+        var xrays5 = getValue(64);
+
+        var fluroide1 = getValue(65);
+        var fluroide2 = getValue(66);
+        var fluroide3 = getValue(67);
+        var fluroide4 = getValue(68);
+
+        var sealantsD = getValue(69);
+
+        var sealants1 = getValue(70);
+        var sealants2 = getValue(71);
+        var sealants3 = getValue(72);
+        var sealants4 = getValue(73);
+        var sealants5 = getValue(74);
+
+        var prophy1 = getValue(75);
+        var prophy2 = getValue(76);
+
+        var rollage = getValue(77);
+
+        var perio1 = getValue(78);
+        var perio2 = getValue(79);
+        var perio3 = getValue(80);
+        var perio4 = getValue(81);
+
+        var perioMnt1 = getValue(82);
+        var perioMnt2 = getValue(83);
+        var perioMnt3 = getValue(84);
+        var perioMnt4 = getValue(85);
+        var perioMnt5 = getValue(86);
+        var perioMnt6 = getValue(87);
+        var perioMnt7 = getValue(88);
+
+        var sedations1 = getValue(89);
+        var sedations2 = getValue(90);
+        var sedations3 = getValue(91);
+
+        var extractions1 = getValue(92);
+        var extractions2 = getValue(93);
+
+        var oral1 = getValue(94);
+        var oral2 = getValue(95);
+        var oral3 = getValue(96);
+        var oral4 = getValue(97);
+        var oral5 = getValue(98);
+        var oral6 = getValue(99);
+
+        var dentures1 = getValue(100);
+        var dentures2 = getValue(101);
+        var dentures3 = getValue(102);
+        var dentures4 = getValue(103);
+        var dentures5 = getValue(104);
+        var dentures6 = getValue(105);
+
+        var implants1 = getValue(106);
+        var implants2 = getValue(107);
+        var implants3 = getValue(108);
+        var implants4 = getValue(109);
+
+        var posterior1 = getValue(110);
+        var posterior2 = getValue(111);
+        var posterior3 = getValue(112);
+        var posterior4 = getValue(113);
+        var posterior5 = getValue(114);
+        var posterior6 = getValue(115);
+        var posterior7 = getValue(116);
+        var posterior8 = getValue(117);
+        var posterior9 = getValue(118);
+        var posterior10 = getValue(119);
+        var posterior11 = getValue(120);
+        var posterior12 = getValue(121);
+
+        var ortho1 = getValue(122);
+        var ortho2 = getValue(123);
+        var ortho3 = getValue(124);
+        var ortho4 = getValue(125);
+
+        var fillings = getValue(126);
+
+        var comments = getValue(127);
+        var benefits = getValue(128);
+        var date = getValue(129);
+        var basicInfo21 = getValue(130);
+        var history = getData(362, 131);
+        
+        var percentages12 = getValue(312);
+        var n = 0;
+                        ?>
+    </SCRIPT>
+</HEAD>
+
+<BODY>
+    <DIV id="page_1" style="width: 768px;">
+        <P class="p1 ft1" style="text-align: center;">Smilepoint - Insurance Verification Form</P>
+
+        <TABLE style="width: 100%">
+            <TR>
+                <TD>
+                    <P class="p1 ft1" style="text-align: left;color: black;">
+                        <b>Claims Timely Fillings
+                        </b>
+                    </P>
+                </TD>
+                <TD colspan="2" style="text-align: center">
+                    <?= percentages12 ?>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>
+                    <P class="p1 ft1" style="text-align: left;color: black">
+                        <b>IVF ID :
+                        </b>
+                </TD>
+                <TD style="text-align: right">
+                    <?= data ?>
+                </TD>
+                <TR>
+                    <TD>&nbsp;</TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Office Name:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo1 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Patient Name:
+                            <!--__________________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo2 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Insurance Name:
+                            <!--___________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo3 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Tax ID:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo4 ?>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Policy Holder:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo5 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Patient DOB:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo6 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Insurance Contact:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo7 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">CSR Name:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo8 ?>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Policy Holder DOB:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo9 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Employer Name:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo10 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Continued/Recall/NP:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo11 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">REF #:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo12 ?>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Member SSN:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo13 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Group #:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo14 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">COB Status:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo15 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Patient ID :</P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo21 ?>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Member ID:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo16 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Appointment:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo17 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Payer ID:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo18 ?>
+                    </TD>
+                    <TD>
+                        <P class="ft2">Provider Name
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD>
+                        <?= basicInfo19 ?>
+                    </TD>
+                </TR>
+                <TR>
+                    <TD>
+                        <P class="ft2">Insurance Address:
+                            <!--______________-->
+                        </P>
+                    </TD>
+                    <TD colspan="7">
+                        <?= basicInfo20 ?>
+                    </TD>
+                </TR>
+        </TABLE>
+        <P class="p3 ft1">Policy/Plan Information</P>
+
+        <TABLE style="width: 100%;">
+            <TR>
+                <TD class="tr4 td5">
+                    <P class="ft4">Plan Type:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy1 ?>
+                </TD>
+                <TD class="tr4 td5">
+                    <P class="ft4">
+                        Termed Date:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy2 ?>
+                </TD>
+                <TD class="tr4 td5">
+                    <P class="ft4">
+                        Network:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy3 ?>
+                </TD>
+                <TD class="tr4 td6">
+                    <P class="ft5">Fee Schedule:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy4 ?>
+                </TD>
+                <TD class="tr4 td7">
+                    <P class="p4 ft5">Effective Date:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy5 ?>
+                </TD>
+                <TD class="tr4 td8">
+                    <P class="ft5">Cal. Yr/Fiscal Yr.:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy6 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td3">
+                    <P class="ft4">Annual Max:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy7 ?>
+                </TD>
+                <TD class="tr5 td3">
+                    <P class="ft4">Ann. Max Rem:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy8 ?>
+                </TD>
+                <TD class="tr5 td9">
+                    <P class="ft5">Ind. Ded:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy9 ?>
+                </TD>
+                <TD class="tr5 td9">
+                    <P class="ft5">Ind. Ded Rem:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy10 ?>
+                </TD>
+                <TD class="tr5 td7">
+                    <P class="p2 ft4">Dependents Covered to age:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy11 ?>
+                </TD>
+                <TD class="tr5 td8">
+                    <P class="ft4">Pre-D Mandatory:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy12 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td3">
+                    <P class="p2 ft4">Non-Duplicate clause?
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy13 ?>
+                </TD>
+                <TD class="tr5 td9">
+                    <P class="ft4">Full Time Student Status Required?
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy14 ?>
+                </TD>
+                <TD class="tr5 td10">
+                    <P class="ft5">Assignment of Benefits Accepted?
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy15 ?>
+                </TD>
+                <TD class="tr5 td10">
+                    <P class="ft5">
+                        Coverage Book:
+                    </P>
+                </TD>
+                <TD>
+                    <?= policy16 ?>
+                </TD>
+            </TR>
+        </TABLE>
+
+        <P class="ft1">Items to be Checked Manually by Treatment Planner and LC3</P>
+        <TABLE style="width:100%">
+            <TR>
+                <TD style="vertical-align: top;">
+                    <P class="ft7">
+                        <NOBR>
+                            <SPAN class="ft6">X-Rays</SPAN>
+                        </NOBR> (Frequency)
+                        <!--Yes | No-->
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr6 td13" style="vertical-align: top;">
+                    <P class="ft10">
+                        <SPAN class="ft8">Sealants</SPAN>
+                        <SPAN class="ft9"> (D1351)
+                        </SPAN>
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr6 td14" style="vertical-align: top;">
+                    <P class="ft11">Perio</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr6 td15">
+                    <P class="ft13">
+                        <SPAN class="ft11">Perio</SPAN> Mnt. (D4910): %
+                    </P>
+                    <TD>
+                        <?= perioMnt1 ?>
+                    </TD>
+                    <TD class="tr6 td16">
+                        <P class="ft7">
+                            <SPAN class="ft14">Dentures </SPAN>(Frequency)
+                        </P>
+                    </TD>
+                    <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft7">BWX:
+                        <span style='color:black;'>
+                            <?= xrays1 ?>
+                        </span>&nbsp;&nbsp;&nbsp; FMX (D0210):
+                    </P>
+                </TD>
+                <TD>
+                    <?= xrays4 ?>
+                </TD>
+                <TD class="tr5 td13">
+                    <P class="ft15">Frequency:
+                        <!--_____-->
+                    </P>
+                </TD>
+                <TD>
+                    <?= sealants1 ?>
+                </TD>
+                <TD class="tr5 td14">
+                    <P class="ft13">SRP (D4341) %:
+                    </P>
+                </TD>
+                <TD>
+                    <?= perio1 ?>
+                </TD>
+                <TD class="tr5 td15">
+                    <P class="ft13">Frequency:
+                    </P>
+                </TD>
+                <TD>
+                    <?= perioMnt2 ?>
+                </TD>
+                <TD class="tr5 td16">
+                    <P class="ft16">Complete (D5110/D5120):
+                    </P>
+                </TD>
+                <TD>
+                    <?= dentures1 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft7">PA(D0220):
+                        <span style="color:black">
+                            <?= xrays2 ?>
+                        </span> &nbsp;&nbsp;&nbsp; D0230:
+                    </P>
+                </TD>
+                <TD>
+                    <?= xrays3 ?>
+                </TD>
+                <TD class="tr5 td13">
+                    <P class="ft9">
+                        <NOBR>Age Limit:</NOBR>
+                        <!--________-->
+                    </P>
+                </TD>
+                <TD>
+                    <?= sealants2 ?>
+                </TD>
+                <TD class="tr5 td14">
+                    <P class="ft13">Frequency:
+                        <!--________-->
+                    </P>
+                </TD>
+                <TD>
+                    <?= perio2 ?>
+                </TD>
+                <TD class="tr5 td15">
+                    <P class="ft13">Alt. with Prophy (D1110):
+                    </P>
+                </TD>
+                <TD>
+                    <?= perioMnt3 ?>
+                </TD>
+                <TD class="tr5 td16">
+                    <P class="ft16">Immediate (D5130/D5140):
+                    </P>
+                </TD>
+                <TD>
+                    <?= dentures2 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <P class="ft7">Bundling:
+                        <!--________-->
+                    </P>
+                </TD>
+                <TD>
+                    <?= xrays5 ?>
+                </TD>
+                <TD>
+                    <P class="ft9">
+                        <NOBR>Coverage:</NOBR>
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>
+                    <P class="ft13">Quads Per Day:
+                    </P>
+                </TD>
+                <TD>
+                    <?= perio3 ?>
+                </TD>
+                <TD>
+                    <P class="ft13">FMD (D4355) %:
+                        <span style="color:black">
+                            <?= perioMnt4 ?>
+                        </span>- &nbsp;&nbsp;&nbsp; Frqncy:
+                    </P>
+                </TD>
+                <TD>
+                    <?= perioMnt5 ?>
+                </TD>
+                <TD>
+                    <P class="p7 ft16">Partial (D5213/D5214):
+                    </P>
+                </TD>
+                <TD>
+                    <?= dentures3 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr7 td12">
+                    <P class="ft19">
+                        <SPAN class="ft17">Fluroide</SPAN>
+                        <SPAN class="ft18"> (D1208)</SPAN>
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr5 td13">
+                    <P class="ft9">
+                        <NOBR>Primary-Molars:
+                        </NOBR>
+                    </P>
+                </TD>
+                <TD>
+                    <?= sealants3 ?>
+                </TD>
+                <TD class="tr5 td14">
+                    <P class="ft13">Days b/w Quads
+                    </P>
+                </TD>
+                <TD>
+                    <?= perio4 ?>
+                </TD>
+                <TD class="tr5 td15">
+                    <P class="ft20">Gingivitis (D4346): %
+                        <span style="color:black">
+                            <?= perioMnt6 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Freq.
+                    </P>
+                </TD>
+                <TD>
+                    <?= perioMnt7 ?>
+                </TD>
+                <TD class="tr5 td16">
+                    <P class="p7 ft16">Interim Partial (D5820):
+                    </P>
+                </TD>
+                <TD>
+                    <?= dentures4 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td12">
+                    <P class="ft18">Frqncy:
+                        <span style="color:black">
+                            <?= fluroide1 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Age Lmt:
+                    </P>
+                </TD>
+                <TD>
+                    <?= fluroide2 ?>
+                </TD>
+                <TD class="tr5 td13">
+                    <P class="ft9">Pre-Molars:
+                    </P>
+                </TD>
+                <TD class="tr5 td14">
+                    <?= sealants4 ?>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr5 td15">
+                    &nbsp;
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr5 td16">
+                    &nbsp;
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft18">Varnish (D1206)</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr5 td13">
+                    <P class="ft9">Perm-Molars:
+                    </P>
+                </TD>
+                <TD>
+                    <?= sealants5 ?>
+                </TD>
+                <TD class="tr5 td13">
+                    <P class="ft6">Prophy (Frequency):
+                    </P>
+                </TD>
+                <TD>
+                    <?= prophy1 ?>
+                </TD>
+                <TD class="tr5 td15">
+                    <P class="p9 ft16">D1120:
+                    </P>
+                </TD>
+                <TD>
+                    <?= prophy2 ?>
+                </TD>
+                <TD class="tr5 td16">
+                    <P class="ft16">
+                        <SPAN class="ft16">1120/1110 </SPAN>Roll Age:
+                    </P>
+                </TD>
+                <TD>
+                    <?= rollage ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD>
+                    <P class="ft18">Frqncy:
+                        <span style="color:black">
+                            <?= fluroide3 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Age Lmt:
+                    </P>
+                </TD>
+                <TD>
+                    <?= fluroide4 ?>
+                </TD>
+                <TD>
+                    &nbsp;
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD colspan="3">
+                    &nbsp;
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft31">Exams(Frequency)</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>
+                    <P class="ft7">
+                        <SPAN class="ft6">SSC</SPAN> Frequency</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD colspan="3" class="tr5 td21">
+                    <P class="ft26">Oral Surgery</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>
+                    <P class="ft27">Prosthetics</P>
+                </TD>
+                <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft31">D0120 :
+                    </P>
+                </TD>
+                <TD>
+                    <?= exams1 ?>
+                </TD>
+                <TD class="tr7 td12">
+                    <P class="ft7">D2930:
+                    </P>
+                </TD>
+                <TD>
+                    <?= ssc1 ?>
+                </TD>
+                <TD colspan="3" class="tr5 td21">
+                    <P class="ft25">Crown Lengthening (D4249) % :
+                        <span style="color:black">
+                            <?= oral1 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Frqncy
+                    </P>
+                </TD>
+                <TD>
+                    <?= oral2 ?>
+                </TD>
+                <TD class="tr5 td22">
+                    <P class="ft22">Missing Tooth Clause:
+                    </P>
+                </TD>
+                <TD>
+                    <?= prosthetics1 ?>
+                </TD>
+            </TR>>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft31">D0140 :
+                    </P>
+                </TD>
+                <TD>
+                    <?= exams2 ?>
+                </TD>
+                <TD class="tr5 td12">
+                    <P class="ft7">D2931:
+                    </P>
+                </TD>
+                <TD>
+                    <?= ssc2 ?>
+                </TD>
+                <TD colspan="3" class="tr5 td21">
+                    <P class="ft25">Bone Graft (D7953) Covered w. EXT:
+                        <span style="color:black">
+                            <?= dentures5 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Frqncy
+                    </P>
+                </TD>
+                <TD>
+                    <?= dentures6 ?>
+                </TD>
+                <TD class="tr5 td22">
+                    <P class="ft28">
+                        Replacement Clause:
+                    </P>
+                </TD>
+                <TD>
+                    <?= prosthetics2 ?>
+                </TD>
+            </TR>
+            <TR style="line-height: 0%">
+                <TD>
+                    <P class="ft31">D0145 :
+                    </P>
+                </TD>
+                <TD>
+                    <?= exams3 ?>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+                <TD colspan="3" style="vertical-align: top">
+                    <P class="ft25">Alveolplasty:</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr5 td22">
+                    <P class="ft28">Crowns (D2740 & D2750) Frequency:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior5 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft31">D0150 :
+                    </P>
+                </TD>
+                <TD>
+                    <?= exams4 ?>
+                </TD>
+                <TD>
+                    <P class="ft25">Post Comp(D2391) :</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD colspan="3" class="tr10 td21">
+                    <P class="ft25">
+                        <NOBR>1-3</NOBR> Teeth/Qd (D7311): Covered w. Ext:
+                        <span style="color:black">
+                            <?= oral3 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Frequency
+                    </P>
+                </TD>
+                <TD>
+                    <?= oral4 ?>
+                </TD>
+                <TD>
+                    <P class="ft28">Paid Prep / Seat Date:
+                    </P>
+                </TD>
+                <TD>
+                    <?= prosthetics3 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr19 td12">
+                    <P class="ft36">
+                        <SPAN class="ft35">Waiting Periods</SPAN>
+                        (months)
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>
+                    <P class="ft25">Frequency :
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior2 ?>
+                </TD>
+                <TD colspan="3" class="tr5 td21">
+                    <P class="ft25">4 Teeth/Qd (D7310): Covered w. Ext:
+                        <?= oral5 ?> &nbsp; Frequency
+                    </P>
+                </TD>
+                <TD>
+                    <?= oral6 ?>
+                </TD>
+                <TD class="tr10 td22">
+                    <P class="ft28">
+                        <NOBR>Night Guards (D9940) Frequency:
+                    </P>
+                </TD>
+                <TD>
+                    <?= prosthetics4 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td12">
+                    <P class="ft36">Basic:
+                    </P>
+                </TD>
+                <TD>
+                    <?= waitingPeriod1 ?>
+                </TD>
+                <TD rowspan="3" style="vertical-align: middle">
+                    <P class="ft36">Fillings (Bundle) :
+                    </P>
+                </TD>
+                <TD rowspan="3">
+                    <?= fillings ?>
+                </TD>
+                <TD colspan="3" rowspan="2" style="vertical-align: middle">
+                    <P class="ft7">Ortho(D8080/D8090) Age Limit :
+                    </P>
+                </TD>
+                <TD rowspan="3">
+                    <?= ortho3 ?>
+                </TD>
+                <TD class="tr5 td22">
+                    <P class="ft28">Build-Up (D2950) %:
+                        <?= posterior10 ?> &nbsp; Frequency:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior11 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td12">
+                    <P class="ft36">Major:
+                    </P>
+                </TD>
+                <TD>
+                    <?= waitingPeriod2 ?>
+                </TD>
+                <TD class="tr5 td22">
+                    <P class="ft28">Same day as Crown:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior12 ?>
+                </TD>
+            </TR>
+        </TABLE>
+
+        <P class="p10 ft34">Items Handled by
+            <SPAN class="ft1">Eaglesoft </SPAN>Automatically</P>
+        <TABLE style="width: 100%">
+            <TR style="line-height: 0%">
+                <TD class="td23">
+                    <P class="ft18">Preventative (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages9 ?>
+                </TD>
+                <TD class="td23">
+                    <P class="ft37">
+                        <SPAN class="ft35">Extractions</SPAN>
+                        <SPAN class="ft36"> (%)</SPAN>
+                    </P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="td23">
+                    <P class="p11 ft7">
+                        <SPAN class="ft14">Ortho (%)</SPAN>: D8080, D8090, D8070:
+                    </P>
+                </TD>
+                <TD>
+                    <?= ortho1 ?>
+                </TD>
+                <TD class="td23" style="vertical-align: top">
+                    <P class="ft40">
+                        <SPAN class="ft39">Sealants</SPAN> D1351 (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= sealantsD ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft9">Diagnostic (%):
+                        <SPAN class="ft31">
+                        </SPAN>
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages10 ?>
+                </TD>
+                <TD class="tr5 td24">
+                    <P class="ft36">
+                        <SPAN class="ft37">Minor </SPAN>(D7111, D7140):
+                    </P>
+                </TD>
+                <TD>
+                    <?= extractions1 ?>
+                </TD>
+                <TD class="tr5 td25">
+                    <P class="p11 ft7">Ortho Max:
+                    </P>
+                </TD>
+                <TD>
+                    <?= ortho2 ?>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft31">PA
+                        <NOBR>X-rays</NOBR>
+                        <SPAN class="ft9">(%)</SPAN>:
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages11 ?>
+                </TD>
+                <TD class="tr5 td24">
+                    <P class="ft36">
+                        <SPAN class="ft37">Major </SPAN>(D7210, D7220, D7230, D7240):
+                    </P>
+                </TD>
+                <TD>
+                    <?= extractions2 ?>
+                </TD>
+                <TD class="tr5 td25">
+                    <P class="p11 ft7">Subject to Deductible:
+                    </P>
+                </TD>
+                <TD>
+                    <?= ortho4 ?>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD>&nbsp;</TD>
+            </TR>
+            <TR>
+                <TD class="td23">
+                    <P class="ft38">Basic (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages1 ?>
+                </TD>
+                <TD class="td26">
+                    <P class="ft40">
+                        <SPAN class="ft39">Sedation (%)</SPAN> Nitrous (D9230):
+                    </P>
+                </TD>
+                <TD>
+                    <?= sedations1 ?>
+                </TD>
+                <TD class="ft40">IV Sedation (D9243):</TD>
+                <TD>
+                    <?= sedations2 ?>
+                </TD>
+                <TD class="ft40">IV Sedation (D9248):</TD>
+                <TD>
+                    <?= sedations3 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td23">
+                    <P class="ft38">Subject to Ded:
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages2 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr4 td23">
+                    <P class="ft13">Major (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages3 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td23">
+                    <P class="ft13">Subject to Ded:
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages4 ?>
+                </TD>
+                <TD>
+                    <P class="ft42">Implants Coverage (%)</P>
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr19 td25">
+                    <P class="p11 ft43">Posterior Composites (D2391) %:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior1 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft9">Endo (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages5 ?>
+                </TD>
+                <TD>
+                    <P class="ft13">Implants D6010 :
+                        <span style="color:black">
+                            <?= implants1 ?>
+                        </span> &nbsp;&nbsp;&nbsp; D6057 :
+                        <span style="color:black">
+                            <?= implants2 ?>
+                        </span> &nbsp;&nbsp;&nbsp; D6190
+                    </P>
+                </TD>
+                <TD>
+                    <?= implants3 ?>
+                </TD>
+                <TD class="tr5 td25">
+                    <P class="p11 ft43">Downgraded to Amalgam (D2140):
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior3 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft9">Subject to Ded:
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages6 ?>
+                </TD>
+                <TD>
+                    <P class="ft20">Implant Supported Porc./Ceramic (D6065):
+                    </P>
+                </TD>
+                <TD>
+                    <?= implants4 ?>
+                </TD>
+                <TD class="tr5 td25">
+                    <P class="p11 ft44">Crowns (D2740 & D2750) %:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior4 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft38">Perio Surgery (%):
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages7 ?>
+                </TD>
+                <TD>
+                    <P class="p11 ft43">&nbsp;
+                </TD>
+                <TD>&nbsp;</TD>
+                <TD class="tr10 td25">
+                    <P class="p11 ft43">Are Crowns Downgraded (D2791):
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior6 ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td23">
+                    <P class="ft38">Subject to Ded:
+                    </P>
+                </TD>
+                <TD>
+                    <?= percentages8 ?>
+                </TD>
+                <TD>
+                    <P class="ft31">Consult (D9310) %:
+                        <span style="color:black">
+                            <?= posterior8 ?>
+                        </span> &nbsp;&nbsp;&nbsp; Frequency
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior9 ?>
+                </TD>
+                <TD class="tr4 td25">
+                    <P class="p11 ft43">Night Guards (D9940) %:
+                    </P>
+                </TD>
+                <TD>
+                    <?= posterior7 ?>
+                </TD>
+            </TR>
+        </TABLE>
+
+        <P class="p3 ft34">Complete 5 Year History</P>
+        <TABLE style="width: 100%" class="lastT" id="history">
+            <TR>
+                <TD class="tr4 td29">
+                    <P class="p16 ft4">ADA Code</P>
+                </TD>
+                <TD class="tr4 td30">
+                    <P class="p17 ft4">Tooth No.</P>
+                </TD>
+                <TD class="tr4 td31">
+                    <P class="p18 ft4">DOS</P>
+                </TD>
+                <TD class="tr4 td32">
+                    <P class="p11 ft4">ADA Code</P>
+                </TD>
+                <TD class="tr4 td33">
+                    <P class="p19 ft4">Tooth No.</P>
+                </TD>
+                <TD class="tr4 td34">
+                    <P class="p18 ft4">DOS</P>
+                </TD>
+                <TD class="tr4 td35">
+                    <P class="p19 ft4">ADA Code</P>
+                </TD>
+                <TD class="tr4 td36">
+                    <P class="p20 ft4">Tooth No.</P>
+                </TD>
+                <TD class="tr4 td36">
+                    <P class="p21 ft4">DOS</P>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[0] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[1] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[2] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[3] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[4] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[5] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[6] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[7] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[8] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td37">
+                    <?= history[9] ?>
+                </TD>
+                <TD class="tr10 td38">
+                    <?= history[10] ?>
+                </TD>
+                <TD class="tr10 td39">
+                    <?= history[11] ?>
+                </TD>
+                <TD class="tr10 td39">
+                    <?= history[12] ?>
+                </TD>
+                <TD class="tr10 td40">
+                    <?= history[13] ?>
+                </TD>
+                <TD class="tr10 td41">
+                    <?= history[14] ?>
+                </TD>
+                <TD class="tr10 td40">
+                    <?= history[15] ?>
+                </TD>
+                <TD class="tr10 td42">
+                    <?= history[16] ?>
+                </TD>
+                <TD class="tr10 td42">
+                    <?= history[17] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[18] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[19] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[20] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[21] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[22] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[23] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[24] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[25] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[26] ?>
+                </TD>
+                <TR>
+                <TD class="tr5 td37">
+                    <?= history[27] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[28] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[29] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[30] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[31] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[32] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[33] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[34] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[35] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr10 td37">
+                    <?= history[36] ?>
+                </TD>
+                <TD class="tr10 td38">
+                    <?= history[37] ?>
+                </TD>
+                <TD class="tr10 td39">
+                    <?= history[38] ?>
+                </TD>
+                <TD class="tr10 td39">
+                    <?= history[39] ?>
+                </TD>
+                <TD class="tr10 td40">
+                    <?= history[40] ?>
+                </TD>
+                <TD class="tr10 td41">
+                    <?= history[41] ?>
+                </TD>
+                <TD class="tr10 td40">
+                    <?= history[42] ?>
+                </TD>
+                <TD class="tr10 td42">
+                    <?= history[43] ?>
+                </TD>
+                <TD class="tr10 td42">
+                    <?= history[44] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[45] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[46] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[47] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[48] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[49] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[50] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[51] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[52] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[53] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[54] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[55] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[56] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[57] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[58] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[59] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[60] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[61] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[62] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[63] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[64] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[65] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[66] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[67] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[68] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[69] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[70] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[71] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[72] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[73] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[74] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[75] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[76] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[77] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[78] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[79] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[80] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[81] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[82] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[83] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[84] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[85] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[86] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[87] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[88] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[89] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[90] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[91] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[92] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[93] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[94] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[95] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[96] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[97] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[98] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[99] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[100] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[101] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[102] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[103] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[104] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[105] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[106] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[107] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[108] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[109] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[110] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[111] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[112] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[113] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[114] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[115] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[116] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[117] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[118] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[119] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[120] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[121] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[122] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[123] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[124] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[125] ?>
+                </TD>
+            </TR><TR>
+                <TD class="tr5 td37">
+                    <?= history[126] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[127] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[128] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[129] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[130] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[131] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[132] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[133] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[134] ?>
+                </TD>
+            </TR><TR>
+                <TD class="tr5 td37">
+                    <?= history[135] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[136] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[137] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[138] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[139] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[140] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[141] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[142] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[143] ?>
+                </TD>
+            </TR><TR>
+                <TD class="tr5 td37">
+                    <?= history[144] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[145] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[146] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[147] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[148] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[149] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[150] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[151] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[152] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[153] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[154] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[155] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[156] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[157] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[158] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[159] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[160] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[161] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[162] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[163] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[164] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[165] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[166] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[167] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[168] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[169] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[170] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[171] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[172] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[173] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[174] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[175] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[176] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[177] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[178] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[179] ?>
+                </TD>
+            </TR>
+             <TR>
+                <TD class="tr5 td37">
+                    <?= history[192] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[193] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[194] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[195] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[196] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[197] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[198] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[199] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[200] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[201] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[202] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[203] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[204] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[205] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[206] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[207] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[208] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[209] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[210] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[211] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[212] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[213] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[214] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[215] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[216] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[217] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[218] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[219] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[220] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[221] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[222] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[223] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[224] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[225] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[226] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[227] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[228] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[229] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[230] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[231] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[232] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[233] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[234] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[235] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[236] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[237] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[238] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[239] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[240] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[241] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[242] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[243] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[244] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[245] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[246] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[247] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[248] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[249] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[250] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[251] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[252] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[253] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[254] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[255] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[256] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[257] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[258] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[259] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[260] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[261] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[262] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[263] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[264] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[265] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[266] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[267] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[268] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[269] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[270] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[271] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[272] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[273] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[274] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[275] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[276] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[277] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[278] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[279] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[280] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[281] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[282] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[283] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[284] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[285] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[286] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[287] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[288] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[289] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[290] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[291] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[292] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[293] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[294] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[295] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[296] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[297] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[298] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[299] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[300] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[301] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[302] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[303] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[304] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[305] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[306] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[307] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[308] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[309] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[310] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[311] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[312] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[313] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[314] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[315] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[316] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[317] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[318] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[319] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[320] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[321] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[322] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[323] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[324] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[325] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[326] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[327] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[328] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[329] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[330] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[331] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[332] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[333] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[334] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[335] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[336] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[337] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[338] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[339] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[340] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[341] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[342] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[343] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[344] ?>
+                </TD>
+            </TR>            
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[345] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[346] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[347] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[348] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[349] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[350] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[351] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[352] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[353] ?>
+                </TD>
+            </TR>
+            <TR>
+                <TD class="tr5 td37">
+                    <?= history[354] ?>
+                </TD>
+                <TD class="tr5 td38">
+                    <?= history[355] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[356] ?>
+                </TD>
+                <TD class="tr5 td39">
+                    <?= history[357] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[358] ?>
+                </TD>
+                <TD class="tr5 td41">
+                    <?= history[359] ?>
+                </TD>
+                <TD class="tr5 td40">
+                    <?= history[360] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[361] ?>
+                </TD>
+                <TD class="tr5 td42">
+                    <?= history[362] ?>
+                </TD>
+            </TR>
+        </TABLE>
+        <P class="p3 ft46">Comments:
+            <textarea name="comments" rows="12" style="width: 100%"><?= comments ?></textarea>
+        </P>
+        <TABLE cellpadding=0 cellspacing=0 class="t5">
+            <TR>
+                <TD class="tr5 td43">
+                    <P class="ft46">Benefits Verified by:
+                        <?= benefits ?>
+                    </P>
+                </TD>
+                <TD class="tr5 td44">
+                    <P class="ft46">Date:
+                        <?= date ?>
+                    </P>
+                </TD>
+            </TR>
+        </TABLE>
+    </DIV>
+</BODY>
+
+</HTML>

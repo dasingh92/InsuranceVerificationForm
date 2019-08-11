@@ -1,0 +1,23 @@
+//Function to print PDF and store in drive in folder 'IV Forms' with patient name after the request is completed
+function printAsPdf(info,uid){
+  PropertiesService.getScriptProperties().setProperty('col', 1); //Reset column counter
+  var blob = HtmlService.createTemplateFromFile('OutputForm');
+  blob.data = uid;
+  blob = blob.evaluate().getBlob().getAs("application/pdf").setName(info[1]);
+  var root = DriveApp.getRootFolder();
+  var folderIterator,folder,pdfUrl;
+  
+  folderIterator = root.getFoldersByName("IV Forms");
+  if(folderIterator.hasNext()){
+    folder = folderIterator.next();
+    folderIterator = folder.getFoldersByName(info[0]);
+    if(folderIterator.hasNext()){
+      pdfUrl = folderIterator.next().createFile(blob).getUrl();
+    }else{
+      pdfUrl = folder.createFolder(info[0]).createFile(blob).getUrl();
+    }
+  }else{
+    pdfUrl = root.createFolder("IV Forms").createFolder(info[0]).createFile(blob).getUrl();
+  }
+  return pdfUrl;
+}

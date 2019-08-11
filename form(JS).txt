@@ -1,0 +1,103 @@
+function recallByPatient(officeNameAll,patientName,patientDob) {
+  var html = HtmlService.createTemplateFromFile("inputForm");
+  html.officeNameAll = officeNameAll ;
+  html.patientName = patientName ;
+  html.patientDob = patientDob ;
+  
+  html.policyHolder = "empty" ;
+  html.policyDob = "empty";
+  html.empName = "empty" ;
+  html.sName = "empty";
+  html.sPolicyHolderName = "empty";
+  html.sInsName = "empty";
+  html.sAppointmentDate = "empty";
+  html.sIvType = "empty";
+  html.sReqDate = "empty";
+  html.sAssignedTo = "empty";
+  html.selectedForm = "empty";
+  return html.evaluate();
+}
+
+function recallByPolicy(officeNameAll,policyHolder,policyDob) {
+  var html = HtmlService.createTemplateFromFile("inputForm");
+  html.officeNameAll = officeNameAll ;
+  html.policyHolder = policyHolder ;
+  html.policyDob = policyDob;
+  
+  html.patientName = "empty" ;
+  html.patientDob = "empty" ;
+  html.empName = "empty" ;
+  html.sName = "empty";
+  html.sPolicyHolderName = "empty";
+  html.sInsName = "empty";
+  html.sAppointmentDate = "empty";
+  html.sIvType = "empty";
+  html.sReqDate = "empty";
+  html.sAssignedTo = "empty";
+  html.selectedForm = "empty";
+  return html.evaluate(); 
+}
+
+function recallByEmployer(officeNameAll,empName) {
+  var html = HtmlService.createTemplateFromFile("inputForm");
+  html.officeNameAll = officeNameAll ;
+  html.empName = empName ;
+  
+  html.policyHolder = "empty" ;
+  html.policyDob = "empty";
+  html.patientName = "empty" ;
+  html.patientDob = "empty" ;
+  html.sName = "empty";
+  html.sPolicyHolderName = "empty";
+  html.sInsName = "empty";
+  html.sAppointmentDate = "empty";
+  html.sIvType = "empty";
+  html.sReqDate = "empty";
+  html.sAssignedTo = "empty";
+  html.selectedForm = "empty";
+  return html.evaluate();
+}
+
+function blankForm(selectedForm) {
+  var html = HtmlService.createTemplateFromFile("inputForm");
+  html.officeNameAll = "empty" ;
+  html.patientName = "empty" ;
+  html.patientDob = "empty" ;
+  html.policyHolder = "empty" ;
+  html.policyDob = "empty";
+  html.empName = "empty" ;
+  html.sName = "empty";
+  html.sPolicyHolderName = "empty";
+  html.sInsName = "empty";
+  html.sAppointmentDate = "empty";
+  html.sIvType = "empty";
+  html.sReqDate = "empty";
+  html.sAssignedTo = "empty";    
+  html.selectedForm = selectedForm;
+  return html.evaluate();
+}
+
+function startIV(sName , sPolicyHolderName , sInsName , sAppointmentDate , sIvType , sReqDate , sAssignedTo , selectedForm){
+  var html = HtmlService.createTemplateFromFile("inputForm");
+    if(selectedForm==="ppo"){
+      html.sName = sName;
+      html.sPolicyHolderName = sPolicyHolderName;
+      html.sInsName = sInsName;
+      html.sAppointmentDate = sAppointmentDate;
+      html.sIvType = sIvType;
+      html.sReqDate = sReqDate;
+      html.sAssignedTo = sAssignedTo;
+      
+      html.officeNameAll = "empty" ;
+      html.empName = "empty" ;
+      html.policyHolder = "empty" ;
+      html.policyDob = "empty";
+      html.patientName = "empty" ;
+      html.patientDob = "empty" ;
+      html.selectedForm = "empty";
+      return html.evaluate();
+    } 
+  else{
+    return blankForm(selectedForm);
+  }
+}
